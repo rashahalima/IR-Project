@@ -147,7 +147,6 @@ def main():
         )
 
         print(f"Results for dataset: {dataset['name']}")
-        print("Mean Precision:", mean_precision)
         print("Mean Recall:", mean_recall)
         print("Mean Average Precision:", mean_average_precision)
         print("Mean Precision@10:", mean_precision_at_10)
